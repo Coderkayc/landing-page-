@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: hsla(39, 73%, 78%, 0.411) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10%;
+}
+.mobit{
+    font-size: 1.5rem;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;;
+    color: black;
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    font-weight:bold ;
+}
+
+.nav_links a:hover{
+    color: #808080;
+}
+.template-btn{
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.template-btn:hover,
+.template-btn:focus{
+    opacity: .75;
+
+}
+.Hero-text{
+    background-color: hsl(39, 73%, 78%, 0.411);
+    text-align: center;
+}
+.container{
+    padding: 10px 5%;
+    
+}
+h1{
+    font-family: "Roboto";
+    font-weight: bolder;
+    color: #000000;
+}
+.btn-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.img-container{
+    margin-top: 35px;
+}
+.download-btn{
+    background-color: #ffff;
+    border: none;
+    border-radius: 50px;
+    color: #000000;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.download-btn:hover,
+.download-btn:focus{
+    opacity: .75;
+}
+.Pricing-btn{
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Pricing-btn:hover,
+ .Pricing-btn:focus{
+    opacity: .85;
+}
+.sec-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.fa-solid.fa-fingerprint{
+   padding: 0.5em;
+}
+.fa-solid.fa-link{
+   padding: 0.5em;
+}
+.fa-solid.fa-up-right-and-down-left-from-center{
+   padding: 0.5em;
+}
+.fa-brands.fa-gofore{
+    padding: 0.5em;
+}
